@@ -404,7 +404,7 @@ ray-content-topic-planning
 
 Ray Skills 的工作流组织、多角色讨论和角色编排设计受到 BMad Method 等开源 Agent 工作流项目的启发。
 
-特别感谢 [翔宇工作流](https://x.com/xiangyuworkflow) 在 AI 工作流实践、方法分享和社区讨论中的启发。
+感谢 [翔宇工作流](https://x.com/xiangyuworkflow) 在 AI 工作流实践中翔宇 Skill 规范的启发。
 
 本项目不是 BMad、BMad Method 或 BMad Code, LLC 的官方项目，也未获得其赞助、背书或授权。BMad 相关名称和商标归其各自权利人所有。
 
