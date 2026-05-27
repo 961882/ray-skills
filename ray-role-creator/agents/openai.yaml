@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ray Role Creator"
+  short_description: "Generate discussion roles as YAML"
+  default_prompt: "Use $ray-role-creator to create 3 new roles for ray-multi-party-mode around finance and legal review."
