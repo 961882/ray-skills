@@ -1,5 +1,7 @@
 # Ray Skills
 
+[![X](https://img.shields.io/badge/X-@someagi-000000?logo=x&logoColor=white)](https://x.com/someagi)
+
 一组面向内容策划、多人角色讨论和角色库扩展的 Agent Skills。
 
 本仓库包含 3 个 skill：
@@ -397,6 +399,14 @@ ray-content-topic-planning
 → ray-multi-party-mode
 → 多角色评审 Top 5 选题
 ```
+
+## 致谢与来源说明
+
+Ray Skills 的工作流组织、多角色讨论和角色编排设计受到 BMad Method 等开源 Agent 工作流项目的启发。
+
+本项目不是 BMad、BMad Method 或 BMad Code, LLC 的官方项目，也未获得其赞助、背书或授权。BMad 相关名称和商标归其各自权利人所有。
+
+如果你在自己的项目中继续修改、分发或引用这些 skill，请同时保留本项目的 License，并尊重上游项目的版权和商标声明。
 
 ## 参考
 
