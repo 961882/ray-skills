@@ -259,6 +259,59 @@ Use the ray-multi-party-mode skill.
 ...
 ```
 
+### ray-content-topic-planning 的输入文件
+
+`ray-content-topic-planning` 至少需要两个输入文件：
+
+| 参数 | 说明 |
+|------|------|
+| `source_path` | 本次要拆解的源文案、白皮书、访谈稿、产品资料或长文 |
+| `identity_path` | 作者身份、目标受众、发布平台、内容目标和写作风格 |
+
+可选参数：
+
+| 参数 | 说明 |
+|------|------|
+| `history_dir` | 历史文章目录，用来校准内容 DNA 和重新评分 |
+| `output_dir` | 输出目录；不填写时默认使用源文案所在目录 |
+| `candidate_count` | 候选选题数量，默认 20 |
+| `select_count` | 精选方向数量，默认 5 |
+
+`identity_path` 推荐写成 Markdown 文件，例如：
+
+```md
+# 身份和目标
+
+## 我是谁
+
+AI 技术创业者。
+
+## 给谁看
+
+- 想做企业 AI 转型的管理者
+- 关注 AI 动态的爱好者
+- 想了解 Agent 构建能力边界的人
+
+## 平台
+
+主平台：微信公众号  
+辅助平台：小红书
+
+## 目标
+
+- 涨粉
+- 建立专业心智
+- 带来咨询转化、需求线索和个人 IP 信任
+
+## 风格
+
+技术深度适中，先讲人能听懂的问题，再讲工具；结构清晰，观点鲜明，有实操细节。
+
+## 本次素材母题
+
+这次素材最核心的观点是什么？希望读者看完后记住什么？
+```
+
 ## 使用示例
 
 ### 示例 1：从白皮书拆内容选题
@@ -266,10 +319,10 @@ Use the ray-multi-party-mode skill.
 ```text
 请按 ray-content-topic-planning 执行完整选题规划。
 
-源文案：/Users/me/docs/ai-whitepaper.md
-身份目标：/Users/me/docs/my-positioning.md
-历史文案：/Users/me/articles/history/
-输出目录：/Users/me/output/topic-plan/
+source_path: /path/to/project/docs/ai-whitepaper.md
+identity_path: /path/to/project/docs/identity.md
+history_dir: /path/to/project/history/
+output_dir: /path/to/project/output/topic-plan/
 
 要求：
 - 候选选题 20 个
@@ -282,8 +335,8 @@ Use the ray-multi-party-mode skill.
 预期结果：
 
 ```text
-/Users/me/output/topic-plan/260527-选题｜标题｜结构.md
-/Users/me/output/topic-plan/260527-历史文案分析与重新评分.md
+/path/to/project/output/topic-plan/260527-选题｜标题｜结构.md
+/path/to/project/output/topic-plan/260527-历史文案分析与重新评分.md
 ```
 
 ### 示例 2：多人角色讨论一个产品决策
