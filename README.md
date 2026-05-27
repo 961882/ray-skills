@@ -36,7 +36,7 @@ ray-skills/
 
 ## 安装
 
-下面用 `YOUR_NAME/ray-skills` 作为 GitHub 仓库占位符。发布后请替换成你的真实仓库地址。
+下面用 `961882/ray-skills` 作为 GitHub 仓库占位符。发布后请替换成你的真实仓库地址。
 
 ### 安装到 Codex
 
@@ -45,15 +45,15 @@ Codex 的 skill 默认安装到 `$CODEX_HOME/skills`，通常是 `~/.codex/skill
 推荐方式是在 Codex 里使用 `skill-installer`：
 
 ```text
-$skill-installer install https://github.com/YOUR_NAME/ray-skills/tree/main/ray-content-topic-planning
-$skill-installer install https://github.com/YOUR_NAME/ray-skills/tree/main/ray-multi-party-mode
-$skill-installer install https://github.com/YOUR_NAME/ray-skills/tree/main/ray-role-creator
+$skill-installer install https://github.com/961882/ray-skills/tree/main/ray-content-topic-planning
+$skill-installer install https://github.com/961882/ray-skills/tree/main/ray-multi-party-mode
+$skill-installer install https://github.com/961882/ray-skills/tree/main/ray-role-creator
 ```
 
 也可以手动安装：
 
 ```bash
-git clone https://github.com/YOUR_NAME/ray-skills.git
+git clone https://github.com/961882/ray-skills.git
 mkdir -p ~/.codex/skills
 cp -R ray-skills/ray-content-topic-planning ~/.codex/skills/
 cp -R ray-skills/ray-multi-party-mode ~/.codex/skills/
@@ -69,7 +69,7 @@ Claude Code 支持个人级和项目级 Skills。
 个人级安装：
 
 ```bash
-git clone https://github.com/YOUR_NAME/ray-skills.git
+git clone https://github.com/961882/ray-skills.git
 mkdir -p ~/.claude/skills
 cp -R ray-skills/ray-content-topic-planning ~/.claude/skills/
 cp -R ray-skills/ray-multi-party-mode ~/.claude/skills/
@@ -79,7 +79,7 @@ cp -R ray-skills/ray-role-creator ~/.claude/skills/
 项目级安装：
 
 ```bash
-git clone https://github.com/YOUR_NAME/ray-skills.git
+git clone https://github.com/961882/ray-skills.git
 mkdir -p .claude/skills
 cp -R ray-skills/ray-content-topic-planning .claude/skills/
 cp -R ray-skills/ray-multi-party-mode .claude/skills/
@@ -99,7 +99,7 @@ Cursor 官方主要使用 Rules 或 `AGENTS.md` 来提供可复用上下文。�
 项目级使用方式：
 
 ```bash
-git clone https://github.com/YOUR_NAME/ray-skills.git skills/ray-skills
+git clone https://github.com/961882/ray-skills.git skills/ray-skills
 mkdir -p .cursor/rules
 ```
 
