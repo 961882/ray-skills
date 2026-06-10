@@ -5,6 +5,8 @@
 
 一组面向内容策划、多人角色讨论和角色库扩展的 Agent Skills。
 
+> **在线体验入口（第三方）**｜上方 badge 指向 [Socialistic](https://socialistic.ai) 提供的在线试用环境，数据与服务由该平台独立运营，与本仓库无关。用户上传的源文案仅用于当次运行，不做持久化存储。详见平台的[隐私说明](https://socialistic.ai/privacy)。
+
 本仓库包含 3 个 skill：
 
 - `ray-content-topic-planning`：从长文、白皮书、访谈稿、产品资料中拆出可发布的内容选题计划。
