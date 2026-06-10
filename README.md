@@ -1,6 +1,7 @@
 # Ray Skills
 
 [![X](https://img.shields.io/badge/X-@someagi-000000?logo=x&logoColor=white)](https://x.com/someagi)
+[![Try ray-content-topic-planning on Socialistic](https://socialistic.ai/api/embed/ray-skills-d1d097?lang=zh)](https://socialistic.ai/zh/skill/ray-skills-d1d097?utm_source=github&utm_medium=readme&utm_campaign=20260609-trend-topic-ideation-skills&utm_content=badge)
 
 一组面向内容策划、多人角色讨论和角色库扩展的 Agent Skills。
 
